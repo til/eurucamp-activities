@@ -164,7 +164,7 @@ RSpec.describe ActivitiesController do
       expect(activity).to receive(:destroy).and_return(true)
     end
 
-    it { is_expected.to redirect_to activities_path }
+    it { is_expected.to redirect_to root_path }
 
   end
 

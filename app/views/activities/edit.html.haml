@@ -10,3 +10,10 @@
       = link_to t("activities.new.label").downcase, new_activity_path
 
   = render "form"
+
+
+%article
+  %header
+    %h2 Danger Zone
+
+  = render "delete_form"
